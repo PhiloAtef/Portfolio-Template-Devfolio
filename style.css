@@ -1,0 +1,138 @@
+.homeContainer{
+    background-image: url("assets/images/hero-bg.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: auto;
+    background-attachment: fixed;
+}
+.bgLayer{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.homeContainer h1{
+    font-size: 4.5rem;
+}
+
+.navbarbg{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+
+.about{
+    padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.about span{
+    color: #4e4e4e;
+}
+
+.skills .progress{
+    background-color: #cde1f8;
+  margin: 0.5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: 0.7rem;
+}
+
+.skills .progress .progress-bar{
+    height: 0.7rem;
+  background-color: #0078ff;
+}
+
+.title{
+    position: relative;
+}
+.title::before{
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -12px;
+}
+
+.MainTitle{
+    margin-bottom: 4rem;
+}
+
+.MainTitle2{
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.subtitle{
+    text-decoration: none;
+    color: #4e4e4e;
+    font-size: 1.1rem;
+    position: relative;
+}
+
+.subtitle::before{
+    content: "";
+    position: absolute;
+    height: 5px;
+    background-color: #0078ff;
+    width: 40px;
+    bottom: -12px;
+    right: calc(50% - 20px);
+}
+
+.servicescontainer{
+    box-shadow:0 13px 8px -10px rgba(0, 0, 0, 0.1);
+    /* border radius not doing anything ?? */
+}
+
+.servicescontainer:hover .fa-circle{
+    transition: all 500ms ease;
+    background-color: #0078ff;
+    box-shadow: 0 0 0 10px #cde1f8;
+}
+
+.servicescontainer:hover .fa-stack-1x{
+    transition: all 500ms ease;
+    color: #fff;
+  
+}
+
+.servicescontainer .fa-circle{
+    border-radius: 50%;
+    width: 80%;
+    margin-left: 10%;
+    height: 100%;
+    
+}
+
+.sTitle{
+    text-transform:uppercase;
+    font-size: 1.7rem; 
+    margin-top: 10px;
+}
+.bgimg{
+    background-image: url("assets/images/counters-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.overlay{
+    background-color: #0078ff;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+}
+.counter{
+    position: relative;
+    padding: 8rem 0;
+}
+
+.cContainer{
+    color: #CDE1F8;
+}
