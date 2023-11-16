@@ -166,7 +166,7 @@
 
   .testimonial{
     position: relative;
-    padding: 8rem 0;
+    padding: 6rem 0;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -186,3 +186,23 @@
     border-top: 1px solid rgb(187, 187, 187);
   }
   
+  .contact{
+    position: relative;
+    padding: 8rem 0;
+    box-shadow: 0px 25px 20px -20px rgba(0,0,0,0.45);
+}
+
+.contactcontainer{
+    padding:3rem 8rem 4rem 3rem;
+    
+}
+
+.socials li{
+    list-style: none;
+    display:inline;
+
+}
+
+.copyright-box{
+background-color: #0062D3;
+}
