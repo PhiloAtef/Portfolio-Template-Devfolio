@@ -138,3 +138,19 @@
 .cContainer{
     color: #CDE1F8;
 }
+
+.crsubtitle{
+    font-size: 0.8rem;
+}
+
+.portfolio .card picture {
+    overflow: hidden;
+  }
+  
+  .portfolio .card img {
+    transition: 0.5s;
+  }
+  
+  .portfolio .card:hover img {
+    scale: 1.1;
+  }
