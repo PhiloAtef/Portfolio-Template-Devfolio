@@ -154,3 +154,25 @@
   .portfolio .card:hover img {
     scale: 1.1;
   }
+
+  .bgimg2{
+    background-image: url("assets/images/overlay-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 0;
+  }
+
+  .testimonial{
+    position: relative;
+    padding: 8rem 0;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px; 
+    height: 10px; 
+    cursor: pointer;
+    transition: opacity .6s ease;
+    border-radius: 100%; 
+}
